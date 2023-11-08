@@ -1,0 +1,36 @@
+#slogan_lg{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+}
+
+@media screen and (min-width: 1000px) {
+    #slogan_lg {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #slogan_lg {
+        font-size: 7rem;
+    }
+}
+
+#slogan_sm{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+}
+
+#slogan_bg{
+    background: url(../../../media/bg_photo1.jpg);
+    background-size: cover;
+    filter: grayscale(100%);
+}
