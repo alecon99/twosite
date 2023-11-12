@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import { Slide } from "react-awesome-reveal";
 
 import '../../BiographySection/BiographySection.css'
@@ -10,7 +10,6 @@ import biography1_photo from '../../../../media/biography/biography1_photo.webp'
 const Biography1 = () => {
     return (
         <div className='py-5'>
-            <Container>
                 <Row>
                     <Col md={6} className='d-flex align-items-center text-center mb-5 mb-md-0'>
                         <div className='txt_biographySection'>
@@ -25,7 +24,6 @@ const Biography1 = () => {
                         </Slide>
                     </Col>
                 </Row>
-            </Container>
         </div>
     )
 }
