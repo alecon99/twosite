@@ -1,0 +1,23 @@
+#Email_bg{
+    background: url(../../../media/backgrounds/pexels-chris-peeters-12838.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Email_container{
+    max-width: 700px;
+}
+
+#copied_message{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.bg_email{
+    background-color: rgba(255, 255, 255, 0.94);
+}

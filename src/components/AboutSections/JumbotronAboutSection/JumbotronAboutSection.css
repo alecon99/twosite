@@ -1,0 +1,36 @@
+#jumbotronAbout_lg{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+}
+
+@media screen and (min-width: 1000px) {
+    #jumbotronAbout_lg {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #jumbotronAbout_lg {
+        font-size: 7rem;
+    }
+}
+
+#jumbotronAbout_sm{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: white;
+}
+
+#jumbotronAbout_bg{
+    background: url(../../../media/backgrounds/pexels-canva-studio-3194521.jpg);
+    background-size: cover;
+    background-position: center;
+}

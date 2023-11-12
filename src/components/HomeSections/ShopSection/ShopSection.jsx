@@ -1,6 +1,7 @@
 import React from 'react'
+
 import { Container, Row, Col } from 'react-bootstrap'
-import Slide from 'react-reveal/Slide';
+import { Slide } from "react-awesome-reveal";
 
 import '../ShopSection/ShopSection.css'
 
@@ -9,11 +10,11 @@ import accessories from '../../../media/accessories.png'
 
 const ShopSection = () => {
     return (
-        <div>
+        <div className='mb-5'>
             <Container>
                 <Row>
                     <Col md={6} className='shop_card'>
-                        <Slide left>
+                        <Slide>
                             <div className='bg-dark'>
                                 <img src={clothes} alt="clothes" className='img_shopSection' />
                                 <div id='txt_clothes_shopSection'>Clothes</div>
@@ -21,7 +22,7 @@ const ShopSection = () => {
                         </Slide>
                     </Col>
                     <Col md={6} className='shop_card'>
-                        <Slide right>
+                        <Slide direction='right'>
                             <div className='bg-dark'>
                                 <img src={accessories} alt="accessories" className='img_shopSection' />
                                 <div id='txt_accessories_shopSection'>Accessories</div>

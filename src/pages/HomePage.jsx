@@ -4,6 +4,7 @@ import SloganSection from '../components/HomeSections/SloganSection/SloganSectio
 import ShopSection from '../components/HomeSections/ShopSection/ShopSection'
 import AboutSection from '../components/HomeSections/AboutSection/AboutSection'
 import Footer from '../components/Footer/Footer'
+import ScrollToTopSection from '../components/HomeSections/ScrollToTopSection/ScrollToTopSection'
 
 
 const HomePage = () => {
@@ -13,6 +14,7 @@ const HomePage = () => {
       <SloganSection/>
       <AboutSection/>
       <ShopSection/>
+      <ScrollToTopSection/>
       <Footer/>
     </>
   )

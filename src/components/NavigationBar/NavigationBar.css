@@ -6,6 +6,18 @@
     cursor: pointer;
 }
 
+.nav_links a:hover{
+    border-bottom: 2px solid white;
+}
+
+.bg_shadow{
+    background-color: rgba(0, 0, 0, 0.381);
+}
+
 .nav_item{
     width: 100%;
+}
+
+.nav_selected{
+    border-bottom: 2px solid white;
 }

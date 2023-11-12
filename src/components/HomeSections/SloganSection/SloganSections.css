@@ -30,7 +30,6 @@
 }
 
 #slogan_bg{
-    background: url(../../../media/bg_photo1.jpg);
+    background: url(../../../media/backgrounds/bg_photo1.jpg);
     background-size: cover;
-    filter: grayscale(100%);
 }

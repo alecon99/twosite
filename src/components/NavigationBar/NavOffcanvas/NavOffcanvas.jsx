@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { nanoid } from 'nanoid'
 
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
@@ -28,7 +29,7 @@ const NavOffcanvas = ({links}) => {
             <Offcanvas.Body>
             {links.map((link) => {
             return (
-                <div className='border-bottom p-2'> 
+                <div key={nanoid()} className='border-bottom p-2'> 
                     <Link to={link.href} className='link_reset fs-4'>{link.name}</Link>
                 </div>
             )

@@ -1,0 +1,18 @@
+#scrollToTopBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+}
+
+#scrollToTopIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

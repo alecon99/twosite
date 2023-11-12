@@ -1,12 +1,12 @@
 import React from 'react'
 
-import logo from '../../media/TWO.png'
+import logo from '../../media/logo/TWO.png'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <div className='bg-black mt-5 pt-5 text-white'>
+    <div className='bg-black pt-5 text-white'>
       <Container>
         <Row className='text-center text-sm-start'>
           <Col lg={3} xs={12} className='p-2 d-flex align-items-center justify-content-center'>

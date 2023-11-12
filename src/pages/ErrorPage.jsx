@@ -2,13 +2,11 @@ import React from 'react'
 
 import { Link } from 'react-router-dom'
 
-import logo from '../media/TWOextended.png'
-
 const ErrorPage = () => {
   return (
     <div className='text-center '>
       <div className='bg-black py-3'>
-          <img src={logo} alt="logo" className='logo'/>
+          <img src={''} alt="logo" className='logo'/>
       </div>
       <div>
         <h1>404</h1>

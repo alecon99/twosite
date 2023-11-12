@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Container } from 'react-bootstrap'
 
-import Zoom from 'react-reveal/Zoom';
+import { Zoom } from "react-awesome-reveal";
 
 const AboutSection = () => {
     return (
