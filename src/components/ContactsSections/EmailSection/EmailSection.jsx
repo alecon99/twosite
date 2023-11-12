@@ -76,7 +76,7 @@ const EmailSection = () => {
                             :
                             <div className='d-flex align-items-center'>
                                 <div className='btn btn-dark me-3' onClick={alertForm}>SEND</div>
-                                <div className={`text-danger fs-5 ${ShowAlertForm ? "d-block":"d-none"}`}>Insert all the data</div>
+                                <div className={`text-danger ${ShowAlertForm ? "d-block":"d-none"}`}>Insert all the data</div>
                             </div> 
                             }
                             {Name !== "" || Subject !== "" || Text !== "" ?

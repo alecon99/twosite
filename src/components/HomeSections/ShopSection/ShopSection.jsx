@@ -14,7 +14,7 @@ const ShopSection = () => {
             <Container>
                 <Row>
                     <Col md={6} className='shop_card'>
-                        <Slide>
+                        <Slide triggerOnce="true">
                             <div className='bg-dark'>
                                 <img src={clothes} alt="clothes" className='img_shopSection' />
                                 <div id='txt_clothes_shopSection'>Clothes</div>
@@ -22,7 +22,7 @@ const ShopSection = () => {
                         </Slide>
                     </Col>
                     <Col md={6} className='shop_card'>
-                        <Slide direction='right'>
+                        <Slide direction='right' triggerOnce="true">
                             <div className='bg-dark'>
                                 <img src={accessories} alt="accessories" className='img_shopSection' />
                                 <div id='txt_accessories_shopSection'>Accessories</div>

@@ -17,7 +17,7 @@ const Biography1 = () => {
                         </div>
                     </Col>
                     <Col md={6}>
-                        <Slide direction='right'>
+                        <Slide direction='right' triggerOnce="true">
                             <div>
                                 <img src={biography1_photo} alt="accessories" className='img_biographySection' />
                             </div>
