@@ -19,8 +19,8 @@ const NavigationBar = () => {
 
   const links = [
     { 'href': '/about', 'name': 'About'},
-    { 'href': '#', 'name': 'Shop' },
-    { 'href': '#', 'name': 'Blog' },
+    { 'href': '/shop', 'name': 'Shop' },
+    { 'href': '/blog', 'name': 'Blog' },
     { 'href': '/contacts', 'name': 'Contacts'}
   ]
 

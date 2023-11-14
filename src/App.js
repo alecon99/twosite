@@ -7,6 +7,8 @@ import HomePage from './pages/HomePage';
 import ErrorPage from './pages/ErrorPage';
 import ContactsPage from './pages/ContactsPage';
 import AboutPage from './pages/AboutPage';
+import BlogPage from './pages/BlogPage';
+import ShopPage from './pages/ShopPage';
 
 function App() {
   return (
@@ -22,12 +24,20 @@ function App() {
             element={<ErrorPage />}
           />
           <Route
-            path='/contacts'
-            element={<ContactsPage />}
-          />
-          <Route
             path='/about'
             element={<AboutPage />}
+          />
+          <Route
+            path='/shop'
+            element={<ShopPage />}
+          />
+          <Route
+            path='/blog'
+            element={<BlogPage />}
+          />
+          <Route
+            path='/contacts'
+            element={<ContactsPage />}
           />
         </Routes >
       </BrowserRouter>

@@ -4,6 +4,8 @@ import NavigatioBar from '../components/NavigationBar/NavigationBar'
 import Footer from '../components/Footer/Footer'
 import JumbotronAboutSection from '../components/AboutSections/JumbotronAboutSection/JumbotronAboutSection'
 import BiographySection from '../components/AboutSections/BiographySection/BiographySection'
+import ScrollToTopSection from '../components/HomeSections/ScrollToTopSection/ScrollToTopSection'
+
 
 const AboutPage = () => {
   return (
@@ -11,6 +13,7 @@ const AboutPage = () => {
      <NavigatioBar/>
       <JumbotronAboutSection/>
       <BiographySection/>
+      <ScrollToTopSection/>
      <Footer/>
     </>
   )

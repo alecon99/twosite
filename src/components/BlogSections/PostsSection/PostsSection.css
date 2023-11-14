@@ -1,0 +1,16 @@
+#img_post_card{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#title_post_card{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#container_post_card:hover #img_post_card{
+    opacity: 0.5;
+}
